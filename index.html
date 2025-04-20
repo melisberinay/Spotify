@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-black">
+    <header class="bg-[#000] h-[75px] flex items-center justify-between px-5">
+        <div class=" text-xl">
+            <i class="fa-solid fa-chevron-left mr-2 text-[#363636]"></i>
+            <i class="fa-solid fa-chevron-right text-[#363636]"></i>
+        </div>
+        <div class="text-white flex items-center">
+            <div class="w-[50px] h-[50px] bg-[#1f1f1f] flex justify-center items-center rounded-full mr-3">
+                <i class="fa-solid fa-house text-xl"></i>
+            </div>
+            <div class="bg-[#1f1f1f] w-[590px] rounded-full p-5 text-[#b9b9b9] flex items-center"> 
+                <div class="w-[510px] border-r mr-3"> 
+                    <i class="fa-solid fa-magnifying-glass text-xl "></i>
+                    <input class="ml-3" type="search" name="" id="" placeholder="Ne çalmak istiyorsun?">
+                </div>
+                <i class="fa-solid fa-window-restore text-xl"></i>
+            </div>        
+        </div>
+        <div class="text-[#b3b3b3] flex items-center text-2xl gap-7">
+            <i class="fa-regular fa-bell"></i>
+            <i class="fa-solid fa-users"></i>
+            <div class="w-12 ">
+                <img class=" rounded-full" src="images/profile2.png" alt=""> 
+            </div>
+        </div>
+        
+    </header>
+    <main class="bg-black flex">
+        <div class="w-[70px] h-[830px] bg-[#121212] ml-2 rounded-[3px]">
+            <img class="w-[40px] ml-3 mt-[20px] rounded-[20px]" src="images/bookcase4.png" alt="">
+            <img class="w-[50px] text-sm ml-2 m-3 rounded-[3px]" src="images/add.png" alt="">
+            <img class="w-[50px] ml-2 m-5 rounded-[3px]" src="images/gecmis.png" alt="">
+            <img class="w-[50px] ml-2 m-5 rounded-[3px]" src="images/thisisyalin.png" alt="">
+            <img class="w-[50px] ml-2 m-5 rounded-[3px]" src="images/munevver.png" alt="">
+            <img class="w-[50px] ml-2 m-5 rounded-[3px]" src="images/melinaysal.jpg" alt="">
+            <img class="w-[50px] ml-2 m-5 rounded-[3px]" src="images/aydinhoca.jpg" alt="">
+            <img class="w-[50px] ml-2 m-5 rounded-[3px]" src="images/vibing.jpg" alt="">
+            <img class="w-[50px] ml-2 m-5 rounded-[3px]" src="images/begum.jpg" alt="">
+            <img class="w-[50px] ml-2 m-5 rounded-[3px]" src="images/elif.jpg" alt="">
+            <img class="w-[50px] ml-2 m-5 rounded-[3px]" src="images/thinkland.jpg" alt="">
+            <img class="w-[50px] ml-2 m-5 rounded-[3px]" src="images/yigit.png" alt="">
+        </div>
+        <div class="bg-gradient-to-b from-sky-950 to-black w-[1185px] h-[830px] ml-2 rounded-[3px]">
+            <div class="ml-10 mt-2 flex space-x-2  p-2 rounded-lg">
+                <button class="px-3 py-1 bg-white text-black font-medium rounded-full">Tümü</button>
+                <button class="px-3 py-1 bg-[#273f5a] font-light text-white font-medium rounded-full">Müzik</button>
+                <button class="px-3 py-1 bg-[#273f5a] font-light text-white font-medium rounded-full">Podcast'ler</button>
+            </div>  
+            <div class="ml-10 flex  mt-2 ">
+                <div class="w-[270px] h-[50px] bg-[#1e2c32]  flex items-center rounded-[5px]">
+                    <img class=" w-[50px] h-[50px]" src="images/gecmis.png" alt="">
+                    <p class="text-white ml-2 font-bold">geçmiş ama geçmemiş</p>
+                </div>
+                <div class=" flex ml-2 w-[270px] h-[50px] bg-[#1e2c32] flex items-center rounded-[5px]">
+                    <img class=" w-[50px] h-[50px]" src="images/thisisyalin.png" alt="">
+                    <p class="text-white ml-2 font-bold">This Is Yalın</p>
+                </div>
+                <div class=" flex ml-2 w-[270px] h-[50px] bg-[#1e2c32] flex items-center rounded-[5px]">
+                    <img class=" w-[50px] h-[50px]" src="images/melinaysal.jpg" alt="">
+                    <p class="text-white ml-2 font-bold">melinaysal</p>
+                </div>
+                <div class=" flex ml-2 w-[270px] h-[50px] bg-[#1e2c32] flex items-center rounded-[5px]">
+                    <img class=" w-[50px] h-[50px]" src="images/vibing.jpg" alt="">
+                    <p class="text-white ml-2 font-bold">vibin' & chillin'</p>
+                </div>
+            </div> 
+            <div class="ml-10 flex mt-2"> 
+                <div class="w-[270px] h-[50px] bg-[#1e2c32] flex items-center rounded-[5px]">
+                    <img class=" w-[50px] h-[50px]" src="images/munevver.png" alt="">
+                    <p class="text-white ml-2 font-bold">Biraz da overthinksel</p>
+                </div>
+                <div class=" flex ml-2 w-[270px] h-[50px] bg-[#1e2c32] flex items-center rounded-[5px]">
+                    <img class=" w-[50px] h-[50px]" src="images/elif.jpg" alt="">
+                    <p class="text-white ml-2 font-bold">#2</p>
+                </div>
+                <div class=" flex ml-2 w-[270px] h-[50px] bg-[#1e2c32] flex items-center rounded-[5px]">
+                    <img class=" w-[50px] h-[50px]" src="images/begum.jpg" alt="">
+                    <p class="text-white ml-2 font-bold">just love</p>
+                </div>
+                <div class=" flex ml-2 w-[270px] h-[50px] bg-[#1e2c32] flex items-center rounded-[5px]">
+                    <img class=" w-[50px] h-[50px]" src="images/yigit.png" alt="">
+                    <p class="text-white ml-2 font-bold">2.</p>
+                </div>
+            </div>
+            <div class="mt-[63px] flex items-center whitespace-nowrap">
+                <button class="ml-[26px]  px-3 py-1 font-light text-white text-2xl font-medium">Melis İçin Derlendi</button>   
+                <button class="ml-[785px] px-3 py-1 font-light text-[#b3b3b3] font-medium ">Tümünü Göster</button>
+            </div>
+            <div class="mt-[5px] flex  ml-[10px] ">
+                <img class="ml-[26px] h-[171px] rounded-[10px]" src="images/daily1.png" alt="">
+                <img class="ml-[26px] h-[171px] rounded-[10px]" src="images/daily2.png" alt="">
+                <img class="ml-[26px] h-[171px] rounded-[10px]" src="images/daily3.png" alt="">
+                <img class="ml-[26px] h-[171px] rounded-[10px]" src="images/daily4.png" alt="">
+                <img class="ml-[26px] h-[171px] rounded-[10px]" src="images/daily5.png" alt="">
+                <img class="ml-[25px] h-[171px] rounded-[10px]" src="images/daily6.png" alt="">
+            </div>
+            <div class="flex">
+                <button class="ml-[35px] whitespace-nowrap mt-2 text-[#adadad] text-sm font-medium bg-transparent hover:underline focus:outline-none">
+                    Yalın, Kenan Doğulu,<br> Buray ve daha fazlası
+                </button>
+                <button class="ml-[55px] whitespace-nowrap mt-2 text-left text-[#adadad] text-sm font-medium bg-transparent hover:underline focus:outline-none">
+                    Ezhel, UZI, Motive ve<br> daha fazlası
+                </button>
+                <button class="ml-[55px] whitespace-nowrap mt-2 text-left text-[#adadad] text-sm font-medium bg-transparent hover:underline focus:outline-none">
+                    Dolu Kadehi Ters Tut,<br> Kalben, Şebnem&hellip;
+                </button>
+                <button class="ml-[57px] whitespace-nowrap text-left mt-2 text-[#adadad] text-sm font-medium bg-transparent hover:underline focus:outline-none">
+                    Semicenk, Sezen<br> Aksu, Ayten Alpman&hellip;
+                </button>
+                <button class="ml-[56px] whitespace-nowrap text-left mt-2 text-[#adadad] text-sm font-medium bg-transparent hover:underline focus:outline-none">
+                    Hande Yener,EDIS,<br> Demet Akalın ve daha&hellip;
+                </button>
+                <button class="ml-[43px] whitespace-nowrap text-left mt-2 text-[#adadad] text-sm font-medium bg-transparent hover:underline focus:outline-none">
+                    Müslüm Gürses, Kâzım<br> Koyuncu, Bergen ve da&hellip;
+                </button>
+            </div>
+            <div class="mt-[63px] flex items-center whitespace-nowrap">
+                <button class="ml-[26px]  px-3 py-1 font-light text-white text-2xl font-medium">Sanatçıların En İyileri</button>
+                <button class="ml-[765px] px-3 py-1 font-light text-[#b3b3b3] font-medium ">Tümünü Göster</button>   
+            </div>
+            <div class="mt-[5px] flex  ml-[10px] ">
+                <img class="ml-[26px] h-[171px] rounded-[10px]" src="images/gokhan.png" alt="">
+                <img class="ml-[26px] h-[171px] rounded-[10px]" src="images/sezen.png" alt="">
+                <img class="ml-[26px] h-[171px] rounded-[10px]" src="images/theweeknd.png" alt="">
+                <img class="ml-[26px] h-[171px] rounded-[10px]" src="images/goksel.png" alt="">
+                <img class="ml-[26px] h-[171px] rounded-[10px]" src="images/sancak.png" alt="">
+                <img class="ml-[25px] h-[171px] rounded-[10px]" src="images/kalben.png" alt="">
+            </div>
+            <div class="flex">
+                <button class="ml-[35px] whitespace-nowrap mt-2 text-[#adadad] text-sm font-medium bg-transparent hover:underline focus:outline-none">
+                    This Is Gökhan Türkmen.<br> En önemli parçalar, hep&hellip;
+                </button>
+                <button class="ml-[30px] whitespace-nowrap mt-2 text-left text-[#adadad] text-sm font-medium bg-transparent hover:underline focus:outline-none">
+                    This Is Sezen Aksu. En<br> önemli parçalar, hepsi&hellip;
+                </button>
+                <button class="ml-[43px] whitespace-nowrap mt-2 text-left text-[#adadad] text-sm font-medium bg-transparent hover:underline focus:outline-none">
+                    The essential tracks from<br> The Weeknd.
+                </button>
+                <button class="ml-[28px] whitespace-nowrap text-left mt-2 text-[#adadad] text-sm font-medium bg-transparent hover:underline focus:outline-none">
+                    This Is Göksel. En önemli<br> parçalar, hepsi tek bir&hellip;
+                </button>
+                <button class="ml-[30px] whitespace-nowrap text-left mt-2 text-[#adadad] text-sm font-medium bg-transparent hover:underline focus:outline-none">
+                    This Is Sancak. En önemli<br> parçalar, hepsi tek bir&hellip;
+                </button>
+                <button class="ml-[30px] whitespace-nowrap text-left mt-2 text-[#adadad] text-sm font-medium bg-transparent hover:underline focus:outline-none">
+                    This Is Kalben. En önemli<br> parçalar, hepsi tek bir&hellip;
+                </button>
+            </div>
+
+        </div>
+        <div class="bg-[#121212] flex items-center w-[420px] h-[830px] ml-2 rounded-[3px]"></div>
+            <button class="ml-[1285px] mt-[16px] absolute px-3 py-1 font-light text-white text-base font-medium">Sensiz Olmaz</button>
+            <img class="w-[389px] h-[389px] ml-[1297px] mt-[64px] absolute" src="images/sensizolmaz.png" alt="">
+            <i class="ml-[1625px] mt-[25px] fa-solid fa-ellipsis text-[#b3b3b3] absolute "></i>
+            <i class="ml-[1665px] mt-[25px] fa-solid fa-xmark text-[#b3b3b3] absolute"></i>
+            <button class="ml-[1285px] mt-[465px] absolute px-3 py-1 font-light text-white text-2xl font-medium">Sensiz Olmaz</button>
+            <button class="ml-[1285px] mt-[497px] absolute px-3 py-1 font-extralight text-[#b8b8b8] text-base font-medium">Yalın</button>
+            <i class="ml-[1660px] mt-[485px] fa-solid fa-circle-check text-[#b3b3b3] text-[#1cd760] text-2xl absolute" style="color: #1cd760"></i>
+            <div class="bg-[#1f1f1f] absolute ml-[1295px] mt-[544px] h-[230px] w-[388px] rounded-[7px] ">
+                <div>
+                    <button class="text-white text-bold whitespace-nowrap ml-5 mt-4">İlgili müzik videoları</button>
+                </div>
+                <div class="flex">
+                    <img class="ml-5  mt-2 h-[110px] w-[195px] " src="images/yalin1.png" alt="">
+                    <img class="ml-3 flex mt-2 w-[160px] h-[110px]" src="images/yalin2.png" alt="">
+                </div>
+                <div class="flex  ">
+                    <p class="ml-5 whitespace-nowrap text-white mt-2 font-extralight">Bu da Geçer mi&hellip;</p>
+                    <p class="ml-22 whitespace-nowrap text-white mt-2 font-extralight">Sensiz Ben Ne Olayım</p>
+                </div>
+                <div class="flex  ">
+                    <p class="ml-5 whitespace-nowrap text-[#9d9d9d]  font-extralight">Yalın</p>
+                    <p class="ml-44 whitespace-nowrap text-[#9d9d9d] font-extralight">Yalın</p>
+                </div>
+            </div>
+            <div class="absolute ">
+                <img class="mt-[794px] w-[388px] h-[33px] ml-[1295px]" src="images/end2.png" alt="">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="flex ">
+            <img class=" w-[55px] ml-3 m-5 rounded-[3px]" src="images/sensizolmaz.png" alt="">
+            <button class="mb-[17px] font-light text-white text-sm font-light">Sensiz Olmaz</button>
+            <button class=" ml-22 absolute mt-11 whitespace-nowrap text-[#9d9d9d] text-sm font-extralight">Yalın</button>
+            <i class="ml-[189px] flex items-start mt-[35px] fa-solid fa-circle-check text-[#b3b3b3] text-[#1cd760] text-l absolute" style="color: #1cd760"></i>
+            <i class="ml-[759px] mt-3 absolute text-xl text-[#b3b3b3] fa-solid fa-repeat"></i>
+            <i class="ml-[807px] mt-3 absolute text-xl text-[#b3b3b3] fa-solid fa-backward-step"></i>
+            <img class="ml-[830px] mb-[35px] absolute w-[45px] h-[45px]" src="images/oynatmatusu.png" alt="">
+            <i class="ml-[885px] mt-3 absolute text-xl text-[#b3b3b3] fa-solid fa-forward-step"></i>
+            <i class="ml-[921px] mt-3 absolute text-xl text-[#b3b3b3] fa-solid fa-retweet"></i>
+            <img class="ml-[515px] w-[648px] h-[20px] mt-10 absolute flex " src="images/playing.png" alt="">
+            <img class="ml-[1385px] mt-[15px] w-[26px] h-[40px] absolute " src="images/ekran.png" alt="">
+            <i class="ml-[1424px] text-white mt-[24px] absolute fa-solid fa-microphone"></i>
+            <i class="ml-[1455px] text-white mt-[24px] absolute fa-solid fa-bars"></i>
+            <i class="ml-[1485px] text-white mt-[24px] absolute fa-solid fa-user-minus"></i>
+            <i class="ml-[1520px] text-white mt-[24px] absolute fa-solid fa-volume-high"></i>
+            <img class="absolute ml-[1545px] w-[88px] h-[12px] mt-[26px]" src="images/volume.png" alt="">
+            <i class="ml-[1640px] text-white mt-[24px] absolute fa-solid fa-laptop"></i>
+            <i class="ml-[1675px] text-white mt-[24px] absolute fa-solid fa-up-right-and-down-left-from-center"></i>
+        </div>
+    </footer>
+      
+    
+     
+      
+
+</body>
+</html> 
